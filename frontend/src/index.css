@@ -1,0 +1,77 @@
+*{
+  margin:0;
+  padding:0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(164, 220, 239);
+}
+.conatiner{
+  max-width: 600px;
+  margin: auto;
+  padding:0 1rem;
+}
+h1{
+  margin-top:2rem;
+  text-align: center;
+  font-style: oblique;
+  color: blueviolet;
+}
+.top{
+  margin-top: 3rem;
+  display:flex;
+  gap:1rem;
+  justify-content: center;
+}
+input{
+  border:none;
+  outline:none;
+  width:400px;
+  padding: 0 0.5rem;
+  border-bottom: 2px solid black;
+}
+.add{
+  background-color: black;
+  color: aliceblue;
+  padding: 0.5rem 1.5rem;
+  cursor:pointer;
+}
+.todo{
+  width:500px;
+  position: relative;
+  margin-left: 54vh;
+  margin-top: 1rem;
+  background-color: rgb(246, 220, 249);
+  color: rgb(15, 25, 34);
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+}
+.icons{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  right:20px;
+  display:flex;
+  gap:0.5rem;
+}
+.icon{
+  cursor: pointer;
+  font-size: 20px;
+}
+.update{
+  margin-top: 10px;
+}
+.update button{
+  background-color: rgb(193, 227, 216);
+  color: black;
+  font-size:15px;
+  border:none;
+  outline: none;
+  font-style: oblique;
+  border-radius: 5px;
+  width:70px;
+}
